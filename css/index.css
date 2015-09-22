@@ -1,0 +1,27 @@
+.navbar {
+    background-color: #ffa434;
+    border: 0px;
+}
+
+#main {
+    xmargin-top: 60px;
+}
+
+body {
+    padding-bottom: 70px;
+}
+
+#footer {
+    background-color: #ffd49f;
+    min-height: 30px;
+    padding-top: 10px;
+}
+
+.dosbox {
+    width: 100%;
+    min-height: 100px;
+    background-color: black;
+    color: #fdaa0b;
+    font-family: monospace;
+    padding: 5px;
+}

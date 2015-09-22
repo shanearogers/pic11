@@ -1,0 +1,18 @@
+<div>
+    Sync Attempts 
+    <form name="myForm" ng-controller="settingsController">
+        <label>
+            <input type="radio" ng-model="maxSyncAttempts" value="5">
+                Short
+        </label><br/>
+        <label>
+            <input type="radio" ng-model="maxSyncAttempts" value="20">
+                Medium
+        </label><br/>
+        <label>
+            <input type="radio" ng-model="maxSyncAttempts" value="50">
+                Long
+        </label><br/>
+        <tt>Settings = {{ maxSyncAttempts | json }}</tt><br/>
+    </form>
+</div>
